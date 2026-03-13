@@ -1,97 +1,85 @@
-Local Food Wastage Management System
+Local Food Wastage Management System - Data Science Project
 
-Project Overview
+Project Description
 
-Food wastage is a significant global problem where large amounts of
-edible food are discarded while many people still suffer from hunger.
-The Local Food Wastage Management System is a data-driven project
-designed to help reduce food waste by connecting food donors with people
-or organizations in need.
+Food wastage is a major global issue where large amounts of edible food are discarded every day while millions of people still face hunger. The Local Food Wastage Management System is a data-driven solution designed to connect food donors such as restaurants, hotels, and individuals with NGOs or people in need.
+This project aims to reduce food wastage by creating a system that allows users to list surplus food, request donations, and analyze food wastage patterns through data analysis and visualization. The project demonstrates the application of data science, database management, and interactive dashboards to solve a real-world social problem.
 
-This system allows restaurants, hotels, and individuals to list surplus
-food available for donation, while NGOs or recipients can request and
-collect the food. The project demonstrates the use of data analysis,
-database management, and application development to solve a real-world
-problem.
-
-The system also helps analyze food wastage patterns to understand how
-food resources can be better utilized and redistributed.
+Table of Contents
+- Project Description
+- Problem Statement
+- Features
+- Technologies Used
+- Installation
+- Usage
+- Project Workflow
+- Future Improvements
+- Credits
+- Author
 
 Problem Statement
 
-Food waste occurs daily in restaurants, households, and events. At the
-same time, many communities face food shortages.
+Large quantities of food are wasted every day in restaurants, events, and households. At the same time, many communities suffer from food shortages.
+This project aims to:
+- Reduce food wastage
+- Enable food donation and redistribution
+- Connect food donors with NGOs and recipients
+- Provide insights into food wastage trends
 
-The goal of this project is to: - Reduce food wastage - Encourage food
-donation - Connect food donors with NGOs or people in need - Track and
-analyze food donation patterns
+Features
+- Food donation listing system
+- Food request system for NGOs and recipients
+- Database storage for food donation records
+- Interactive dashboard interface
+- Data analysis of food donation patterns
 
 Technologies Used
+- Python
+- Pandas
+- SQL / SQLite
+- Streamlit
+- Jupyter Notebook
+- Data Visualization Libraries
 
--   Python
--   SQL / SQLite
--   Streamlit
--   Pandas
--   Data Visualization
--   Jupyter Notebook
+Installation
+- Step 1 – Clone the repository - https://github.com/VatsalMithal/DS_Local-Food-Wastage-Management-System
+- Step 2 – Navigate to the project folder - cd DS_Local-Food-Wastage-Management-System
+- Step 3 – Install required libraries - pip install -r requirements.txt
+- Step 4 – Run the Streamlit application - streamlit run app.py
 
-Project Features
+Usage
 
-1.  Food Donation Listing
-    Restaurants or individuals can list surplus food available for
-    donation.
+After running the application, users can:
+- View available food donations
+- Add food donation entries
+- Request available food
+- Analyze food donation patterns through visualizations
 
-2.  Food Request System
-    NGOs or recipients can browse available food donations and place
-    requests.
-
-3.  Database Management
-    Food donation data such as quantity, type of food, location, and
-    time is stored in a structured SQL database.
-
-4.  Interactive Interface
-    A user-friendly dashboard built using Streamlit allows users to
-    interact with the system easily.
-
-5.  Data Analysis
-    The system analyzes food donation trends and helps identify patterns
-    in food wastage.
+The dashboard provides a simple interface for interacting with the system and managing food donations effectively.
 
 Project Workflow
 
-1.  Data Collection – Gather food donation and food wastage data.
-2.  Data Cleaning – Handle missing values and prepare the dataset.
-3.  Database Creation – Store food donation information in SQL tables.
-4.  Application Development – Build the interface using Streamlit.
-5.  Data Visualization – Create charts and dashboards to display
-    insights.
-
-Key Insights
-
--   Food wastage can be significantly reduced through structured
-    donation systems.
--   Restaurants and large events are major contributors to surplus food.
--   Efficient redistribution can help support communities and NGOs.
-
-How to Run the Project
-
-Step 1: Clone the Repository git clone
-https://github.com/VatsalMithal/DS_Local-Food-Wastage-Management-System.git
-
-Step 2: Navigate to the Project Folder cd
-DS_Local-Food-Wastage-Management-System
-
-Step 3: Install Required Libraries pip install -r requirements.txt
-
-Step 4: Run the Streamlit Application streamlit run app.py
+- Data Collection - Gather food donation and wastage related data.
+- Data Cleaning - Prepare and clean the dataset for analysis.
+- Database Creation - Store food donation data using SQL.
+- Application Development - Build an interactive dashboard using Streamlit.
+- Data Visualization - Display insights and patterns in food wastage.
 
 Future Improvements
 
--   Add geolocation to find nearby food donations
--   Implement login and authentication system
--   Create a mobile-friendly interface
--   Use machine learning to predict food wastage patterns
+- Implement geolocation for nearby food donations
+- Add authentication system for users
+- Develop mobile-friendly interface
+- Use machine learning to predict food wastage trends
+- Integrate real-time food donation tracking
+
+Credits
+
+This project was developed as part of the Master of Data Science Certification Program provided by GUVI -HCL and IIT Madras (IITM)
+Guidance and assistance for project structuring, documentation, and development support were provided with the help of project mentors and ChatGPT.
 
 Author
-Vatsal Mithal 
+
+Vatsal Mithal
+
 Aspiring Data Analyst
